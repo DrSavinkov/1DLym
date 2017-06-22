@@ -1,5 +1,5 @@
 // 1DLym.cpp: определяет точку входа для консольного приложения.
-
+// first stable release
 //#pragma once
 #include "TreeInit.h"
 using namespace TreeInit;
