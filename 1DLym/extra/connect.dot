@@ -1,0 +1,11 @@
+digraph Lymph1D {
+	CalcUtils -> TreeDataDepend;
+	TreeDataDepend -> TreeDataIndepend;
+	TaskData -> TDVesselWrite;
+	Globals -> TaskData;
+     	TreeInitTD -> TreeInit;
+	TreeDataIndepend -> Globals;
+	TDGlobals -> Globals;
+     	TDVesselWrite -> TreeInitTD;
+     	TreeInit -> Main;
+ }
